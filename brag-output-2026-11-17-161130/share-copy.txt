@@ -1,0 +1,3 @@
+Object Department Goods: a small demonstration shop for useful everyday objects. Browse the collection, inspect the details, and build a bag.
+
+Music: Sascha Ende, ende.app (CC BY 4.0).
