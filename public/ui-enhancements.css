@@ -1,0 +1,17 @@
+/* Goods: calm editorial motion and a little physicality in the object stage. */
+body[data-task="store"] .product-card {
+  border: 1px solid color-mix(in srgb, var(--rule) 72%, transparent);
+  background: var(--paper-white);
+  transition: transform .28s cubic-bezier(.2,.75,.25,1), border-color .28s ease, box-shadow .28s ease;
+}
+body[data-task="store"] .product-card:hover,
+body[data-task="store"] .product-card:focus-within {
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--signal) 46%, var(--rule));
+  box-shadow: 0 16px 34px rgb(48 35 26 / .09);
+}
+body[data-task="store"] .product-art { transition: transform .5s cubic-bezier(.2,.75,.25,1); }
+body[data-task="store"] .product-card:hover .product-art { transform: scale(1.025); }
+body[data-task="store"] .hero-art { box-shadow: 0 24px 60px rgb(46 35 28 / .11); }
+body[data-task="store"] .quick-add { transition: color .2s ease, background-color .2s ease, transform .2s ease; }
+body[data-task="store"] .quick-add:hover { transform: translateY(-2px); }
